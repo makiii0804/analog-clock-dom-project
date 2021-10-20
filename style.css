@@ -52,3 +52,10 @@ main {
 .sizing-box {
     fill: none;
 }
+
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    transition: transform .5s ease-in-out;
+}
